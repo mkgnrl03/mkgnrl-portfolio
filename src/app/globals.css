@@ -4,8 +4,9 @@
     /* #141414 -- 111827
     green - #00DC81
     */
-  --background: #000000;
-  --foreground: #00DC81;
+  --background: #020617;
+  --foreground: #fafafa;
+  --primary: #00DC81;
 }
 
 @theme inline {
