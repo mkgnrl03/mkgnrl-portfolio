@@ -11,7 +11,7 @@ const Page = () => {
   return (
     <>
       <header className="
-          sticky top-0 bg-gradient-to-r from-primary to-background overflow-hidden
+          sticky top-0 bg-gradient-to-r from-red-900 via-red-950 to-background overflow-hidden
           backdrop-blur-lg p-5 shadow-[0_4px_6px_-1px_rgba(255,255,255,0.1),0_2px_4px_-2px_rgba(255,255,255,0.1)]
         ">
           <div className="max-w-7xl mx-auto flex gap-6 items-center justify-between">
@@ -32,7 +32,7 @@ const Page = () => {
           id="home"
           className="
               py-6 px-12 min-h-[75vh] sm:h-[70vh]
-              bg-gradient-to-b from-primary to-background
+              bg-gradient-to-b from-red-900 via-red-950 to-background
             "
           >
           <Container className="flex flex-col gap-3 items-center sm:items-start justify-start pt-16 sm:pt-40">
