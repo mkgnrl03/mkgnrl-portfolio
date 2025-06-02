@@ -10,8 +10,7 @@ type SkillCardProp = {
 const SkillCard = (prop: SkillCardProp) => {
   return (
     <div className="
-      bg-background rounded flex flex-col gap-3 items-center justify-center
-      bg-linear-to-br from-[#192145] to-[#210E17] p-6
+      bg-secondary shadow-md text-primary rounded flex flex-col gap-3 items-center justify-center p-8
     ">
       <Image 
         src={prop.skill.iconLink}

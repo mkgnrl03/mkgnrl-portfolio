@@ -13,9 +13,9 @@ const MyButton = (prop: MyButtonProp) => {
   const getButtonTypeClass = () => {
     switch(prop.type){
       case "solid": 
-        return "bg-foreground text-red-900"
+        return "bg-primary text-background"
       case "outline":
-        return "bg-background/40 border border-gray-500"
+        return "bg-primary/5 text-foreground backdrop-blur-xl border border-primary-500"
       default:
         return ""
     }

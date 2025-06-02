@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import SidebarContextProvider from "@/context/SidebarContext";
 
 const inter = Inter({
   variable: "--inter",
@@ -19,11 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth overflow-x-hidden">
       <body
         className={`${inter.className} antialiased`}
       >
-        {children}
+        <SidebarContextProvider>
+          {children}
+        </SidebarContextProvider>
       </body>
     </html>
   );

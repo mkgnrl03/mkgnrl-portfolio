@@ -3,16 +3,27 @@
 :root {
     /* #141414 -- 111827
     green - #00DC81
+
+    --background: #F3F4F5;
+    --foreground: #273036;
+    --primary: #0099FF;
+    --secondary: #FFFFFF;
     */
-  --background: #000;
+  /* --background: #000;
   --foreground: #fafafa;
-  --primary: #00DC81;
+  --primary: #00DC81; */
+
+  --background: #F3F4F5;
+  --foreground: #002233;
+  --primary: #002233;
+  --secondary: #FFFFFF;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-primayr: var(--primary);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -31,3 +42,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+  }
