@@ -113,7 +113,7 @@ const Page = () => {
               <div className="text-center text-md p-6 sm:p-0 mb-6">
                 <h2 className="text-xl sm:text-2xl font-bold tracking-wide mb-4">About Me.</h2>
                 <div className="flex flex-col gap-4 font-normal max-w-2xl text-start">
-                  <p>I&apos;m an experienced Software Engineer with a proven track record of delivering high-quality applications across web, mobile, and server-side platforms. I've contributed to three major projects — two client-based and one internal — playing a key role in their successful delivery.</p>
+                  <p>I&apos;m an experienced Software Engineer with a proven track record of delivering high-quality applications across web, mobile, and server-side platforms. I&apos;ve contributed to three major projects — two client-based and one internal — playing a key role in their successful delivery.</p>
                   <p>I also have experience building desktop applications, including a custom Pisonet Management System I use for my small business.</p>
                   <p>I&apos;m passionate about building clean, efficient, and user-friendly software. I enjoy solving real-world problems with technology and continuously strive to learn and grow in the ever-evolving tech landscape.</p>
                 </div>
@@ -128,7 +128,9 @@ const Page = () => {
            <Container className="flex flex-col items-center justify-start">
             <div className="text-center text-sm p-6 sm:p-0 sm:w-xl mb-6">
               <h2 className="text-xl sm:text-2xl font-bold tracking-wide mb-4">My Skills.</h2>
-              <p className="text-zinc-400 w-fit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque velit fugiat, quo consectetur alias quia iste non tempore architecto veniam.</p>
+               <p className="text-zinc-400 w-fit">
+                These are the tools and technologies I use to design, develop, and deliver reliable, high-quality applications across the stack.
+              </p>
             </div>
 
             <div className="p-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
@@ -144,7 +146,9 @@ const Page = () => {
            <Container className="flex flex-col items-center justify-start">
              <div className="text-center text-sm p-6 sm:p-0 sm:w-xl mb-6">
               <h2 className="text-xl sm:text-2xl font-bold tracking-wide mb-4">Projects I have built.</h2>
-              <p className="text-zinc-400 w-fit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque velit fugiat, quo consectetur alias quia iste non tempore architecto veniam.</p>
+               <p className="text-zinc-400 w-fit">
+                  A selection of projects I&apos;ve built to solve real problems — from internal tools and client-facing apps to open-source contributions.
+               </p>
             </div>
 
           </Container>  
@@ -155,7 +159,9 @@ const Page = () => {
          <Container className="flex flex-col items-center justify-start">
             <div className="text-center text-sm p-6 sm:p-0 sm:w-xl mb-6">
               <h2 className="text-2xl font-bold tracking-wide mb-4">Let&apos;s build something great together.</h2>
-              <p className="text-zinc-400 w-fit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque velit fugiat, quo consectetur alias quia iste non tempore architecto veniam.</p>
+              <p className="text-zinc-400 w-fit">
+                Whether you have a project in mind or just want to connect, feel free to reach out. I&apos;m always open to new opportunities and collaborations.
+              </p>
             </div>
 
           </Container>  
