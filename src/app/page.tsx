@@ -14,11 +14,15 @@ const Page = () => {
   return (
     <>
       <header className="
-          sticky top-0 z-40 bg-gradient-to-r text-foreground overflow-hidden
-          backdrop-blur-xl p-5 shadow
+          sticky top-0 z-40 text-foreground overflow-hidden
+          p-5 shadow bg-background
         ">
           <div className="max-w-7xl mx-auto flex gap-6 items-center justify-between">
-             <h1 className="text-xl font-semibold tracking-wide">MKGNRL</h1>
+            <div className="flex gap-3 items-center">
+              <Navigation />
+              <h1 className="text-xl font-semibold tracking-wide">MKGNRL</h1>
+            </div>
+             
              <div className="flex items-center justify-center gap-3">
 
               <nav className="hidden sm:flex gap-3 text-sm tracking-wide">
@@ -27,19 +31,16 @@ const Page = () => {
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
+                |
               </nav>
-
-                <Navigation />
-
-                 | 
-
-                <button>
+                 
+              <button>
                   <Moon 
                     size={18}
                     className="text-primary cursor-pointer hover:scale-105 transition"
                   />
-                </button>
-              </div> 
+              </button>
+            </div> 
           </div>
     
       </header>
