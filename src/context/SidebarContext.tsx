@@ -1,6 +1,5 @@
 "use client"
 
-import { X } from "lucide-react"
 import { createContext, useContext, useState } from "react"
 
 type SidebarContextType = {
