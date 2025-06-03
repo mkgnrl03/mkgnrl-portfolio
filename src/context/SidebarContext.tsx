@@ -13,7 +13,7 @@ export const SidebarContext = createContext<SidebarContextType | undefined>(unde
 
 
 export default function SidebarContextProvider({ children }: { children: React.ReactNode }) {
-  const [isSidebarOpen, setSidebarStatus] = useState<boolean>(true);
+  const [isSidebarOpen, setSidebarStatus] = useState<boolean>(false);
 
   const open = () => setSidebarStatus(true)
   const close = () => setSidebarStatus(false)
