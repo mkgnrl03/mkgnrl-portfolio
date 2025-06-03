@@ -45,10 +45,10 @@ const Page = () => {
     
       </header>
 
-      <main> 
+      <main className="relative z-10"> 
         <section 
           id="home"
-          className=" min-h-[60vh] sm:h-[70vh] scroll-mt-16 pt-32 sm:pt-0 px-12 sm:px-24"
+          className="min-h-[60vh] sm:h-[70vh] scroll-mt-16 pt-32 sm:pt-0 px-12 sm:px-24"
           >
           <Container className="relative -top-10 flex flex-col gap-3 items-center sm:items-start justify-center">
               <p className="text-md sm:text-xl text-zinc-600 sm:mb-4">Hey there! 👋</p>
