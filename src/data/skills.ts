@@ -45,5 +45,15 @@ export const skills: Skill[] = [
     id: crypto.randomUUID(),
     name: "Node JS",
     iconLink: "../../svg/node.svg"
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Python",
+    iconLink: "../../svg/python.svg"
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "FastAPI",
+    iconLink: "../../svg/fastapi.svg"
   }
 ]

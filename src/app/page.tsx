@@ -1,7 +1,7 @@
 import Container from "@/components/Container";
 import MyButton from "@/components/MyButton";
 import SkillCard from "@/components/SkillCard";
-import { ChartNoAxesGantt, Moon } from 'lucide-react';
+import { ChartNoAxesGantt } from 'lucide-react';
 
 import { skills } from "@/data/skills";
 import Image from 'next/image';
@@ -31,15 +31,14 @@ const Page = () => {
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
-                |
               </nav>
                  
-              <button>
+              {/* <button>
                   <Moon 
                     size={18}
                     className="text-primary cursor-pointer hover:scale-105 transition"
                   />
-              </button>
+              </button> */}
             </div> 
           </div>
     
@@ -90,21 +89,14 @@ const Page = () => {
    
         </section>
  
-        <section id="about" className="relative h-fit scroll-mt-16 py-16 bg-primary text-background">
-           {/* <Image 
-            src="../../svg/wavy/wave5.svg"
-            width={25}
-            height={25}
-            alt="github"
-            className="w-screen h-auto absolute -top-20 z-0 contain center"
-          /> */}
-          <Container className="flex flex-col items-center gap-24  justify-start relative z-30 ">
+        <section id="about" className="relative h-fit scroll-mt-16 pt-8 md:pt-16 pb-16 bg-primary text-background">
+          <Container className="flex flex-col items-center gap-24  justify-start relative z-30">
             <div className="min-h-[40vh] w-full flex flex-col gap-12">
               <div className="text-center text-sm p-6 sm:p-0 max-w-xl mx-auto">
-                  <h2 className="text-xl sm:text-2xl font-bold tracking-wide mb-4">Real-World Projects.</h2>
+                  <h2 className="text-xl sm:text-2xl font-bold tracking-wide mb-2">Real-World Projects.</h2>
                   <p className="text-zinc-400 w-fit">The following corporate projects showcase my ability to solve real business problems, collaborate within teams, and deliver results in fast-paced environments.</p>
               </div>
-              <div className="px-6 sm:px-12 md:px-24">
+              <div className="px-6">
                 <FeaturesCard />
               </div>
             </div>
