@@ -11,7 +11,6 @@ type SidebarContextType = {
 
 export const SidebarContext = createContext<SidebarContextType | undefined>(undefined)
 
-
 export default function SidebarContextProvider({ children }: { children: React.ReactNode }) {
   const [isSidebarOpen, setSidebarStatus] = useState<boolean>(false);
 
@@ -41,7 +40,7 @@ export default function SidebarContextProvider({ children }: { children: React.R
         onClick={toggle}
       >
         <div className={`
-          text-primary bg-background w-[50vw] h-full py-12 pl-12
+          text-primary bg-background w-[60vw] h-full py-12 pl-12
           absolute top-0 ${getSidebarClass()} transition-all duration-400
         `}>
           <nav className="flex flex-col items-start justify-start gap-6 ">

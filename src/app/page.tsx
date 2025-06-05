@@ -94,7 +94,7 @@ const Page = () => {
             <div className="min-h-[40vh] w-full flex flex-col gap-12">
               <div className="text-center text-sm p-6 sm:p-0 max-w-xl mx-auto">
                   <h2 className="text-xl sm:text-2xl font-bold tracking-wide mb-2">Real-World Projects.</h2>
-                  <p className="text-zinc-400 w-fit">The following corporate projects showcase my ability to solve real business problems, collaborate within teams, and deliver results in fast-paced environments.</p>
+                  <p className="text-zinc-400 w-fit">The following projects showcase my ability to solve real business problems, collaborate within teams, and deliver results in fast-paced environments.</p>
               </div>
               <div className="px-6">
                 <FeaturesCard />
