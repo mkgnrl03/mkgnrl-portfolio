@@ -1,7 +1,7 @@
 import Container from "@/components/Container";
 import MyButton from "@/components/MyButton";
 import SkillCard from "@/components/SkillCard";
-import { ChartNoAxesGantt, Linkedin, Mail } from 'lucide-react';
+import { ChartNoAxesGantt } from 'lucide-react';
 
 import { skills } from "@/data/skills";
 import Image from 'next/image';
