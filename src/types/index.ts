@@ -5,3 +5,10 @@ export type Skill = {
   name: string,
   iconLink: string
 }
+
+export type Project = {
+  name: string,
+  description: string,
+  more_description: string,
+  path: string,
+}

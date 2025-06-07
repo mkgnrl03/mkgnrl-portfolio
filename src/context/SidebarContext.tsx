@@ -44,11 +44,10 @@ export default function SidebarContextProvider({ children }: { children: React.R
           absolute top-0 ${getSidebarClass()} transition-all duration-400
         `}>
           <nav className="flex flex-col items-start justify-start gap-6 ">
-            <a href="#home" onClick={close}>Home</a>
-            <a href="#about" onClick={close}>About</a>
-            <a href="#skills" onClick={close}>Skills</a>
-            <a href="#projects" onClick={close}>Projects</a>
-            <a href="#contact" onClick={close}>Contact</a>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Connect</a>
           </nav>
          
         </div>
