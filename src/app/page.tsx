@@ -124,7 +124,7 @@ const Page = () => {
           </Container>
         </section>
 
-        <section id="skills" className="min-h-[90vh] scroll-mt-0 py-24">
+        <section id="skills" className="min-h-[90vh] scroll-mt-16 py-16">
            <Container className="flex flex-col items-center justify-start">
             <div className="text-center text-sm p-6 sm:p-0 sm:w-xl mb-6">
               <h2 className="text-xl sm:text-2xl font-bold tracking-wide mb-4">Skills & Technologies</h2>

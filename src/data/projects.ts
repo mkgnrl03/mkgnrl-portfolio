@@ -18,7 +18,7 @@ import { Project } from "@/types";
     {
       name: "slack-bot-project",
       description: "[Internal] - Slack Room Reservation Bot",
-      path: "/images/features/slack/room-modal.webp",
+      path: "/images/features/slack/room-modal.jpg",
        more_description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo temporibus libero eos laboriosam eum aliquam nostrum, animi voluptatibus magnam."
     }
 ]
