@@ -47,6 +47,7 @@ export default function SidebarContextProvider({ children }: { children: React.R
             <a href="#home">Home</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
             <a href="#contact">Connect</a>
           </nav>
          
