@@ -65,5 +65,25 @@ export const skills: Skill[] = [
     id: crypto.randomUUID(),
     name: "Github",
     iconLink: "../../svg/github.svg"
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "PostgreSQL",
+    iconLink: "../../svg/postgre.svg"
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "SQLite",
+    iconLink: "../../svg/sqlite.svg"
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "TailwindCSS",
+    iconLink: "../../svg/tailwind.svg"
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Figma",
+    iconLink: "../../svg/figma.svg"
   }
 ]
