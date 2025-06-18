@@ -49,6 +49,7 @@ const FeaturesCard = (props: FeaturesCardProp) => {
           rounded flex flex-col gap-3 items-center justify-center text-center
         `}
       > 
+        <img src={selected.path} />
         <Image
           src={selected.path}
           width={500}
