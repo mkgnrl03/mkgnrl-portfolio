@@ -49,14 +49,17 @@ const FeaturesCard = (props: FeaturesCardProp) => {
           rounded flex flex-col gap-3 items-center justify-center text-center
         `}
       > 
-        <img src={selected.path} />
-        <Image
+        <img 
+          src={selected.path}
+          className={`w-full md:w-[80vw] lg:w-[45vw] aspect-video bg-cover`}
+        />
+        {/* <Image
           src={selected.path}
           width={500}
           height={500}
           alt={selected.name}
           className={`w-full md:w-[80vw] lg:w-[45vw] aspect-video bg-cover`}
-        />
+        /> */}
         <p className="font-semibold text-sm sm:text-md tracking-wide">{selected.description}</p>
       </div>
 
